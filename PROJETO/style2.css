@@ -1,0 +1,131 @@
+/*CABEÇALHO - EX.: Mundo POP*/
+
+
+/*Aqui fizemos as imagens ficarem alinhadas e sem margens previas*/
+*
+{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+/*Aqui fizemos o titulo do site ficar com o fundo rosa e fonte branca
+e demos espaçamento de 16 pixels*/
+header{ 
+    color: white;
+    background-color: rgb(3, 58, 3);
+    padding: 16px 0;
+}
+
+/*Aqui deixamos as listas do menu do site uma do lado da outra e não
+uma embaixo da outra*/
+header li {
+    display: inline;
+}
+
+/*Aqui deixamos os links na cor branca*/
+header li a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Aqui deixamos os itens do cabeçalho um ao lado do outro e alinhados
+deixando todos com espaçamentos iguais*/
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Aqui deixamos todos os itens da div container 
+que é o cabeçalho com espalamento e margens iguais*/
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+/*SEÇÕES- EX: "Divas Pop"*/
+
+
+#Esportes {
+    background-color: rgb(19, 110, 6)
+}
+
+#Economia {
+    background-color: rgb(15, 199, 45)
+}
+
+#Entretenimento {
+    background-color: rgb(92, 255, 119)
+}
+
+#Tecnologia {
+    background-color: rgb(157, 247, 172)
+}
+
+/*Aqui deixamos todas as seções com o mesmo espaçamento*/
+
+    
+/*Aqui deixamos todos os titulos das sessões com a mesma margem*/
+section h1{
+    margin-bottom: 16px;
+    font-size: 28px;
+}
+
+
+
+
+/*ARTIGOS - EX: "Quais suas apostas para a maior noite da musica ?"*/
+
+/*Aqui definimos que todos os artigos estejam uns aos lados dos outros
+e com espaçamento igual um para outro se ajustando ao tamanho da pagina*/
+
+.article { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Aqui deuxamos todas as imagens iguais e com mesmo tamanho e largura*/
+.article article img {
+    height: 180px;
+    width: 100%;
+}
+
+/*Aqui deixamos todos os artigos com o mesmo tamanho para caber na pagina*/
+.article article {
+    width: 30%
+}
+
+/*Aqui deixamos todos os titulos dos artigos com as mesma margem no final*/
+.article article h3{
+    margin-bottom: 3px;
+}
+
+/*Aqui deixamos todos os links dos artigos em blocos com cores de fonte iguais
+e cores de fundo iguais além de espaçamentos iguais*/
+.article article a{
+    background-color: rgb(59, 126, 15);
+    color: whitesmoke;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+
+.article article a:hover {
+    text-decoration: underline;
+}
+
+.article article p
+.article article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article h3{
+    font-size: 15px;
+}
